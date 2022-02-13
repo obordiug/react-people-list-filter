@@ -1,0 +1,22 @@
+.peopleList {
+  list-style: none;
+  padding: 0;
+
+  &__item {
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 10px solid #f05d22;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1),
+      -2px -2px 5px 0 rgba(0,0,0,.1),
+      2px 2px 5px 0 rgba(0,0,0,.1),
+      -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: 0.3s border-left linear;
+
+    &:hover {
+      border-left: 20px solid #f05d22;
+    }
+  }
+}
